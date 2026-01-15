@@ -13,23 +13,3 @@
 Инструмент: DB Browser for SQLite
 
 Данные: Реальный Excel от магазина
-
-4. Структура БД
-
-┌─────────────┐    ┌────────────┐
-│   batches   │───▶│  products  │◀── ┐
-│ (4 партии)  │    │ (31 товар) │    │
-└─────────────┘    └────────────┘    │
-                                     ▼
-┌────────────┐    ┌──────────┐    ┌──────────────┐
-│   clients  │───▶│  orders  │───▶│ order_items  │
-│ (30 кл.)   │    │ (50 з.)  │    │ (60 позиц.)  │
-└────────────┘    └──────────┘    └──────────────┘
-Ключевые поля:
-
-products: brand, model, cost, sale_price, batch_id
-
-clients: gender (M/F), channel (Авито/Telegram)
-
-orders: client_id, total_price
-
