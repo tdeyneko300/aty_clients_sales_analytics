@@ -6,7 +6,8 @@
 Задача: Из плоского Excel файла → нормализованная БД → бизнес-метрики (топ-бренды, сегментация клиентов, контроль партий).
 
 2. Стек и требования
-БД: SQLite 3 (aty_database.db)
+БД: SQLite 3 (aty_database 1.db)
+
 Дашборд: Yandex DataLens
 
 Инструмент: DB Browser for SQLite, Yandex DataLens
